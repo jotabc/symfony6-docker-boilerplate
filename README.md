@@ -1,0 +1,8 @@
+# Boilerplate docker PHP8 - MYSQL8 - NGINX1.21 COMPOSER LATEST VERSION
+
+## How to use:
+- Clone this repository.
+- Inside the .docker folder, create a file .env.nginx.local, taking the file .env.nginx as an example, and place the domain name
+- Access the .docker folder. in your terminal try cd .docker/
+- Once inside, in your terminal try "docker-compose up -d --build", this builds the development environment.
+- Then in your terminal try "docker exec -it symfony_dockerized_php_1 sh or bash", This goes into the docker container, where we have php and composer.

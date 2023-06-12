@@ -1,5 +1,15 @@
 # Boilerplate docker PHP8 - MYSQL8 - NGINX1.21 COMPOSER LATEST VERSION
 
+## Details
+
+This is a complete stack for running Symfony 6.2 into Docker containers using docker-compose tool.
+
+It is composed by 4 containers:
+
+- nginx, acting as the webserver.
+- php, the PHP-FPM container with the 8.2 version of PHP.
+- db which is the MySQL database container with a MySQL 8.0 image.
+
 ## How to use:
 - Clone this repository.
 - Inside the .docker folder, create a file .env.nginx.local, taking the file .env.nginx as an example, and place the domain name
